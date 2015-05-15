@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		515F74141B06A7010039576D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F74131B06A7010039576D /* main.m */; };
+		515F74171B06A7010039576D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F74161B06A7010039576D /* AppDelegate.m */; };
+		515F741A1B06A7010039576D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F74191B06A7010039576D /* ViewController.m */; };
+		515F741D1B06A7010039576D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515F741B1B06A7010039576D /* Main.storyboard */; };
+		515F741F1B06A7010039576D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515F741E1B06A7010039576D /* Images.xcassets */; };
+		515F74221B06A7010039576D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 515F74201B06A7010039576D /* LaunchScreen.xib */; };
+		515F742E1B06A7010039576D /* CachePurgeTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F742D1B06A7010039576D /* CachePurgeTimerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		515F74281B06A7010039576D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 515F74061B06A7010039576D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515F740D1B06A7010039576D;
+			remoteInfo = CachePurgeTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		515F740E1B06A7010039576D /* CachePurgeTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CachePurgeTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		515F74121B06A7010039576D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515F74131B06A7010039576D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		515F74151B06A7010039576D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		515F74161B06A7010039576D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		515F74181B06A7010039576D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		515F74191B06A7010039576D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		515F741C1B06A7010039576D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		515F741E1B06A7010039576D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		515F74211B06A7010039576D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		515F74271B06A7010039576D /* CachePurgeTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CachePurgeTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		515F742C1B06A7010039576D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515F742D1B06A7010039576D /* CachePurgeTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CachePurgeTimerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515F740B1B06A7010039576D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515F74241B06A7010039576D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		515F74051B06A7010039576D = {
+			isa = PBXGroup;
+			children = (
+				515F74101B06A7010039576D /* CachePurgeTimer */,
+				515F742A1B06A7010039576D /* CachePurgeTimerTests */,
+				515F740F1B06A7010039576D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		515F740F1B06A7010039576D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515F740E1B06A7010039576D /* CachePurgeTimer.app */,
+				515F74271B06A7010039576D /* CachePurgeTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515F74101B06A7010039576D /* CachePurgeTimer */ = {
+			isa = PBXGroup;
+			children = (
+				515F74151B06A7010039576D /* AppDelegate.h */,
+				515F74161B06A7010039576D /* AppDelegate.m */,
+				515F74181B06A7010039576D /* ViewController.h */,
+				515F74191B06A7010039576D /* ViewController.m */,
+				515F741B1B06A7010039576D /* Main.storyboard */,
+				515F741E1B06A7010039576D /* Images.xcassets */,
+				515F74201B06A7010039576D /* LaunchScreen.xib */,
+				515F74111B06A7010039576D /* Supporting Files */,
+			);
+			path = CachePurgeTimer;
+			sourceTree = "<group>";
+		};
+		515F74111B06A7010039576D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				515F74121B06A7010039576D /* Info.plist */,
+				515F74131B06A7010039576D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		515F742A1B06A7010039576D /* CachePurgeTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				515F742D1B06A7010039576D /* CachePurgeTimerTests.m */,
+				515F742B1B06A7010039576D /* Supporting Files */,
+			);
+			path = CachePurgeTimerTests;
+			sourceTree = "<group>";
+		};
+		515F742B1B06A7010039576D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				515F742C1B06A7010039576D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		515F740D1B06A7010039576D /* CachePurgeTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515F74311B06A7010039576D /* Build configuration list for PBXNativeTarget "CachePurgeTimer" */;
+			buildPhases = (
+				515F740A1B06A7010039576D /* Sources */,
+				515F740B1B06A7010039576D /* Frameworks */,
+				515F740C1B06A7010039576D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CachePurgeTimer;
+			productName = CachePurgeTimer;
+			productReference = 515F740E1B06A7010039576D /* CachePurgeTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		515F74261B06A7010039576D /* CachePurgeTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515F74341B06A7010039576D /* Build configuration list for PBXNativeTarget "CachePurgeTimerTests" */;
+			buildPhases = (
+				515F74231B06A7010039576D /* Sources */,
+				515F74241B06A7010039576D /* Frameworks */,
+				515F74251B06A7010039576D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				515F74291B06A7010039576D /* PBXTargetDependency */,
+			);
+			name = CachePurgeTimerTests;
+			productName = CachePurgeTimerTests;
+			productReference = 515F74271B06A7010039576D /* CachePurgeTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515F74061B06A7010039576D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = PubNub;
+				TargetAttributes = {
+					515F740D1B06A7010039576D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					515F74261B06A7010039576D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 515F740D1B06A7010039576D;
+					};
+				};
+			};
+			buildConfigurationList = 515F74091B06A7010039576D /* Build configuration list for PBXProject "CachePurgeTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 515F74051B06A7010039576D;
+			productRefGroup = 515F740F1B06A7010039576D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				515F740D1B06A7010039576D /* CachePurgeTimer */,
+				515F74261B06A7010039576D /* CachePurgeTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515F740C1B06A7010039576D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515F741D1B06A7010039576D /* Main.storyboard in Resources */,
+				515F74221B06A7010039576D /* LaunchScreen.xib in Resources */,
+				515F741F1B06A7010039576D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515F74251B06A7010039576D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515F740A1B06A7010039576D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515F741A1B06A7010039576D /* ViewController.m in Sources */,
+				515F74171B06A7010039576D /* AppDelegate.m in Sources */,
+				515F74141B06A7010039576D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515F74231B06A7010039576D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515F742E1B06A7010039576D /* CachePurgeTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		515F74291B06A7010039576D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 515F740D1B06A7010039576D /* CachePurgeTimer */;
+			targetProxy = 515F74281B06A7010039576D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		515F741B1B06A7010039576D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515F741C1B06A7010039576D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		515F74201B06A7010039576D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515F74211B06A7010039576D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		515F742F1B06A7010039576D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		515F74301B06A7010039576D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		515F74321B06A7010039576D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CachePurgeTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		515F74331B06A7010039576D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CachePurgeTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		515F74351B06A7010039576D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CachePurgeTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CachePurgeTimer.app/CachePurgeTimer";
+			};
+			name = Debug;
+		};
+		515F74361B06A7010039576D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CachePurgeTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CachePurgeTimer.app/CachePurgeTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		515F74091B06A7010039576D /* Build configuration list for PBXProject "CachePurgeTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515F742F1B06A7010039576D /* Debug */,
+				515F74301B06A7010039576D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515F74311B06A7010039576D /* Build configuration list for PBXNativeTarget "CachePurgeTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515F74321B06A7010039576D /* Debug */,
+				515F74331B06A7010039576D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		515F74341B06A7010039576D /* Build configuration list for PBXNativeTarget "CachePurgeTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515F74351B06A7010039576D /* Debug */,
+				515F74361B06A7010039576D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 515F74061B06A7010039576D /* Project object */;
+}
